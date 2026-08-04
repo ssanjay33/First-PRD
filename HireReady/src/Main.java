@@ -7,7 +7,7 @@ public class Main {
         String degree = "B.E. Computer Science";
         int graduationYear = 2026;
         double degreePercentage = 72.5;
-        int activeBacklogs = 2;
+        int activeBacklogs = 0;
 
         int aptitudeCorrectAnswers = 38;
         int aptitudeTotalQuestions = 50;
@@ -15,7 +15,7 @@ public class Main {
         int codingTestCasesPassed = 8;
         int codingTotalTestCases = 10;
 
-        int communicationScore = 68;
+        int communicationScore = 55;
 
         boolean projectCompleted = true;
         boolean profileVerified = true;

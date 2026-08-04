@@ -94,3 +94,125 @@ Next Action             : Clear all active backlogs.
 
 Test Case-4
 
+================================================
+      CAMPUS PLACEMENT APPLICATION REPORT
+================================================
+Candidate Name          : Aarav
+Registration Number     : 24031
+Degree                  : B.E. Computer Science
+Graduation Year         : 2024
+Degree Percentage       : 72.5
+Active Backlogs         : 0
+------------------------------------------------
+Aptitude Score          : 38 / 50
+Aptitude Percentage     : 76.0
+Coding Test Cases       : 8 / 10
+Coding Percentage       : 80.0
+Communication Score     : 68
+Project Completed       : Yes
+Profile Verified        : Yes
+------------------------------------------------
+Degree Eligibility      : Eligible
+Backlog Eligibility     : Eligible
+Graduation Year         : Not Eligible
+Aptitude Eligibility    : Eligible
+Coding Eligibility      : Eligible
+Communication Status    : Eligible
+------------------------------------------------
+Application Status      : Not Eligible
+Next Action             : Check the eligible graduation-year criteria.
+================================================
+
+Test case-5
+
+================================================
+      CAMPUS PLACEMENT APPLICATION REPORT
+================================================
+Candidate Name          : Aarav
+Registration Number     : 24031
+Degree                  : B.E. Computer Science
+Graduation Year         : 2026
+Degree Percentage       : 72.5
+Active Backlogs         : 0
+------------------------------------------------
+Aptitude Score          : 25 / 50
+Aptitude Percentage     : 50.0
+Coding Test Cases       : 8 / 10
+Coding Percentage       : 80.0
+Communication Score     : 68
+Project Completed       : Yes
+Profile Verified        : Yes
+------------------------------------------------
+Degree Eligibility      : Eligible
+Backlog Eligibility     : Eligible
+Graduation Year         : Eligible
+Aptitude Eligibility    : Not Eligible
+Coding Eligibility      : Eligible
+Communication Status    : Eligible
+------------------------------------------------
+Application Status      : Not Eligible
+Next Action             : Improve aptitude assessment performance.
+================================================
+
+
+Test case-6
+
+================================================
+      CAMPUS PLACEMENT APPLICATION REPORT
+================================================
+Candidate Name          : Aarav
+Registration Number     : 24031
+Degree                  : B.E. Computer Science
+Graduation Year         : 2026
+Degree Percentage       : 72.5
+Active Backlogs         : 0
+------------------------------------------------
+Aptitude Score          : 38 / 50
+Aptitude Percentage     : 76.0
+Coding Test Cases       : 6 / 10
+Coding Percentage       : 60.0
+Communication Score     : 68
+Project Completed       : Yes
+Profile Verified        : Yes
+------------------------------------------------
+Degree Eligibility      : Eligible
+Backlog Eligibility     : Eligible
+Graduation Year         : Eligible
+Aptitude Eligibility    : Eligible
+Coding Eligibility      : Not Eligible
+Communication Status    : Eligible
+------------------------------------------------
+Application Status      : Not Eligible
+Next Action             : Improve coding assessment performance.
+================================================
+
+Test case-7
+
+================================================
+      CAMPUS PLACEMENT APPLICATION REPORT
+================================================
+Candidate Name          : Aarav
+Registration Number     : 24031
+Degree                  : B.E. Computer Science
+Graduation Year         : 2026
+Degree Percentage       : 72.5
+Active Backlogs         : 0
+------------------------------------------------
+Aptitude Score          : 38 / 50
+Aptitude Percentage     : 76.0
+Coding Test Cases       : 8 / 10
+Coding Percentage       : 80.0
+Communication Score     : 55
+Project Completed       : Yes
+Profile Verified        : Yes
+------------------------------------------------
+Degree Eligibility      : Eligible
+Backlog Eligibility     : Eligible
+Graduation Year         : Eligible
+Aptitude Eligibility    : Eligible
+Coding Eligibility      : Eligible
+Communication Status    : Not Eligible
+------------------------------------------------
+Application Status      : Not Eligible
+Next Action             : Improve communication assessment performance.
+================================================
