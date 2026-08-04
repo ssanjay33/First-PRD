@@ -2,91 +2,57 @@ package HireReady.src;
 
 public class Main {
     public static void main(String[] args) {
-
         String candidateName = "Aarav";
         int registrationNumber = 24031;
         String degree = "B.E. Computer Science";
         int graduationYear = 2026;
         double degreePercentage = 72.5;
         int activeBacklogs = 0;
-
         int aptitudeCorrectAnswers = 38;
         int aptitudeTotalQuestions = 50;
-
         int codingTestCasesPassed = 8;
         int codingTotalTestCases = 10;
-
         int communicationScore = 68;
-
         boolean projectCompleted = true;
         boolean profileVerified = true;
 
-        double aptitudePercentage = (double) aptitudeCorrectAnswers
-                / aptitudeTotalQuestions
-                * 100;
-
-        double codingPercentage = (double) codingTestCasesPassed
-                / codingTotalTestCases
-                * 100;
+        double aptitudePercentage = (double) aptitudeCorrectAnswers / aptitudeTotalQuestions * 100;
+        double codingPercentage = (double) codingTestCasesPassed / codingTotalTestCases * 100;
 
         boolean degreeEligible = degreePercentage >= 60;
-
         boolean backlogEligible = activeBacklogs == 0;
-
-        boolean graduationYearEligible = graduationYear >= 2025
-                && graduationYear <= 2027;
-
+        boolean graduationYearEligible = graduationYear >= 2025 && graduationYear <= 2027;
         boolean aptitudeEligible = aptitudePercentage >= 60;
-
         boolean codingEligible = codingPercentage >= 70;
-
         boolean communicationEligible = communicationScore >= 60;
-
         boolean projectEligible = projectCompleted;
-
         boolean verificationEligible = profileVerified;
-
-        boolean applicationEligible = degreeEligible
-                && backlogEligible
-                && graduationYearEligible
-                && aptitudeEligible
-                && codingEligible
-                && communicationEligible
-                && projectEligible
-                && verificationEligible;
 
         System.out.println("================================================");
         System.out.println("      CAMPUS PLACEMENT APPLICATION REPORT");
         System.out.println("================================================");
-
         System.out.println("Candidate Name          : " + candidateName);
         System.out.println("Registration Number     : " + registrationNumber);
         System.out.println("Degree                  : " + degree);
         System.out.println("Graduation Year         : " + graduationYear);
         System.out.println("Degree Percentage       : " + degreePercentage);
         System.out.println("Active Backlogs         : " + activeBacklogs);
-
         System.out.println("------------------------------------------------");
-
         System.out.println("Aptitude Score          : " + aptitudeCorrectAnswers + " / " + aptitudeTotalQuestions);
         System.out.println("Aptitude Percentage     : " + aptitudePercentage);
-
         System.out.println("Coding Test Cases       : " + codingTestCasesPassed + " / " + codingTotalTestCases);
         System.out.println("Coding Percentage       : " + codingPercentage);
-
         System.out.println("Communication Score     : " + communicationScore);
 
-        if (projectCompleted) {
+        if (projectCompleted)
             System.out.println("Project Completed       : Yes");
-        } else {
+        else
             System.out.println("Project Completed       : No");
-        }
 
-        if (profileVerified) {
+        if (profileVerified)
             System.out.println("Profile Verified        : Yes");
-        } else {
+        else
             System.out.println("Profile Verified        : No");
-        }
 
         System.out.println("------------------------------------------------");
 
