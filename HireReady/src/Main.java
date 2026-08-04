@@ -5,17 +5,17 @@ public class Main {
         String candidateName = "Aarav";
         int registrationNumber = 24031;
         String degree = "B.E. Computer Science";
-        int graduationYear = 2026;
-        double degreePercentage = 72.5;
-        int activeBacklogs = 0;
+        int graduationYear = 2025;
+        double degreePercentage = 55;
+        int activeBacklogs = 2;
 
-        int aptitudeCorrectAnswers = 38;
+        int aptitudeCorrectAnswers = 20;
         int aptitudeTotalQuestions = 50;
 
-        int codingTestCasesPassed = 8;
+        int codingTestCasesPassed = 5;
         int codingTotalTestCases = 10;
 
-        int communicationScore = 55;
+        int communicationScore = 60;
 
         boolean projectCompleted = true;
         boolean profileVerified = true;
