@@ -7,12 +7,16 @@ public class Main {
         String degree = "B.E. Computer Science";
         int graduationYear = 2026;
         double degreePercentage = 72.5;
-        int activeBacklogs = 0;
+        int activeBacklogs = 2;
+
         int aptitudeCorrectAnswers = 38;
         int aptitudeTotalQuestions = 50;
+
         int codingTestCasesPassed = 8;
         int codingTotalTestCases = 10;
+
         int communicationScore = 68;
+
         boolean projectCompleted = true;
         boolean profileVerified = true;
 
@@ -31,17 +35,22 @@ public class Main {
         System.out.println("================================================");
         System.out.println("      CAMPUS PLACEMENT APPLICATION REPORT");
         System.out.println("================================================");
+
         System.out.println("Candidate Name          : " + candidateName);
         System.out.println("Registration Number     : " + registrationNumber);
         System.out.println("Degree                  : " + degree);
         System.out.println("Graduation Year         : " + graduationYear);
         System.out.println("Degree Percentage       : " + degreePercentage);
         System.out.println("Active Backlogs         : " + activeBacklogs);
+
         System.out.println("------------------------------------------------");
+
         System.out.println("Aptitude Score          : " + aptitudeCorrectAnswers + " / " + aptitudeTotalQuestions);
         System.out.println("Aptitude Percentage     : " + aptitudePercentage);
+
         System.out.println("Coding Test Cases       : " + codingTestCasesPassed + " / " + codingTotalTestCases);
         System.out.println("Coding Percentage       : " + codingPercentage);
+
         System.out.println("Communication Score     : " + communicationScore);
 
         if (projectCompleted)
